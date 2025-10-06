@@ -1,1 +1,9 @@
-/*Edite aqui*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#video-home {
+    position: fixed;
+}
+
