@@ -1,1 +1,16 @@
-/*Edite aqui*/
+:root {
+    --cor1:#222222;
+    --cor2:#666666;
+    --cor3:#999999;
+    --cor4:#CCCCCC;
+    --cor5:#DEDEDE;
+    --cor6:#797470;
+    --cor7:#A59D95;
+    --cor8:#D5D2CA;
+    --cor9:#F5F5F1;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&displ…ay=swap');
