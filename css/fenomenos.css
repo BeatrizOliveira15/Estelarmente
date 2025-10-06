@@ -1,1 +1,94 @@
-/*Edite aqui*/
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+  img{
+        width: auto;
+        height: 100%;
+    }
+.lua{
+    p{
+        color: beige;
+        display: flex;
+        margin: 60px;
+        font-size: 30px;
+
+    }
+}
+.colisões_galácticas{
+    p{
+        display: flex;
+        color: beige;
+        margin: 60px;
+        font-size: 30px;
+
+        
+    }
+    
+}
+.Planeta{
+    p{
+        display: flex;
+        color: beige;
+        margin: 60px;
+        font-size: 30px;
+
+    }
+}
+.galaxia{
+    
+    p{
+        display: flex;
+        color: beige;
+        margin: 60px;
+        font-size: 30px;
+    }
+}
+.Cometa{
+    p{
+        display: flexbox;
+        color: beige;
+        text-align: justify; 
+        margin: 60px;
+        font-size: 30px;
+    }
+}
+
+.lua {
+    display: flex;
+    align-items: center;
+}
+
+.colisõesgalácticas {
+    color: beige;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin: 60px;
+    ;
+}
+.Planetas {
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px;
+    color: beige;
+
+}
+
+.galaxia {
+    display: flex;
+    align-items: center;
+}
+
+.Cometa {
+    display: flex;
+    align-items: center;
+}
+
+.Nebulosa {
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
