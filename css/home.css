@@ -7,12 +7,3 @@
     position: fixed;
 }
 
-.cabecalho {
-    position: fixed;
-    width: 50%;
-    height: 50px;
-    margin-top: 12px;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-}
