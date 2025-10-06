@@ -1,1 +1,16 @@
 /*Edite aqui*/
+body {
+    background-image: url(../assets/img/background_blog.jpg);
+    width: 50%;
+    height: 50%;
+}
+
+.Title {
+    color: white;
+}
+
+.comment {
+    
+
+}
+
