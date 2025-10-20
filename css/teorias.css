@@ -321,6 +321,16 @@ cabecalho{
     }
 }
 
+footer{
+    top:490%;
+    position: absolute !important;
+    height: 35% !important;
+}
+
+ footer .nome{
+        margin-left: 33% !important; 
+    }
+
 /*RESPONSIVIDADE CELULAR GRANDE*/
 @media screen and (max-width: 767px) {
 
