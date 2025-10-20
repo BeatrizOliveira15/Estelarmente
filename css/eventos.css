@@ -1,3 +1,8 @@
+footer{
+    margin-top: 0% !important;
+}
+
+
 /* Base section styles */
 .section {
     position: relative;
@@ -9,11 +14,100 @@
     color: #ffffff;
 }
 
-/* Header styles specific to eventos page ONLY - do not modify global.css or index.html */
-.header nav {
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    background-color: black;
+}
+  .nav-bar-1 {
+    
+    margin-top: 15px;
+    background-color: var(--cor10);
+    border-radius: 15px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    gap: 10px;
+    padding: 10px;
+
+    .butom {
+        background-color: #e6eef8;
+        border-radius: 20px;
+        color: black;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: var(--cor5);
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        padding: 23px;
+        
+    }
+
+    }
+
+.loginb nav {
+    position: absolute;
+    width: 8%;
+    height: 45px;
+    margin-top: 13px;
+    /* background-color: var(--cor4); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 63%;
+    border-radius: 20px;
+    z-index: 999;
+   
+    a {
+       text-decoration: none;
+       color: var(--cor1);
+       font-family: 'Poppins', sans-serif;
+       font-size: 12px;
+       padding: 43px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+    }
+}
+ 
+.singupb nav {
+    position: absolute;
+    width: 8%;
+    height: 45px;
+    margin-top: 13px;
+    background-color: var(--cor4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 71.5%;
+    border-radius: 20px;
+    z-index: 999;
+   
+    a {
+       text-decoration: none;
+       color: var(--cor1);
+       font-family: 'Poppins', sans-serif;
+       font-size: 12px;
+       padding: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+}
+
+    
+
+
+ /* .header nav {
   
     width: 60%;
-    /* height: 50rem; */
+    height: 50rem; 
     margin-top: 12px;
     background-color: var(--cor10);
     display: flex;
@@ -22,13 +116,15 @@
     margin-left: 20%;
     border-radius: 15px;
     z-index: 999;
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap; 
+
 .header .paginas nav {
     display: flex;
     gap: 12px;
     padding: 12px 16px;
-}
+}   */
+
+
 /* compact layout for small screens */
 @media (max-width: 600px) {
     .header { padding: 6px 10px; }
