@@ -133,6 +133,55 @@ footer {
     
 }
 
+/*RESPONSIVIDADE TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+    .paginas nav {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    border-radius: 15px;
+
+    a {
+        text-decoration: none;
+        color: var(--cor5);
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        padding: 10px;
+    }
+    }
+
+    footer {
+        height: 30%;
+        margin-top: 80%;
+
+        .icones {
+            margin-left: 40px;
+            gap: 200px;
+            margin-top: 20px;
+        }
+
+        .contato {
+            font-size: small;
+            margin-top: 20px;
+        }
+
+        .linha {
+            margin-top: 20px;
+        }
+
+        .nome {
+            font-size: medium;
+            margin-top: 40px;
+            margin-left: 35%;
+        }
+    }
+}
+
+/*RESPONSIVIDADE CELULAR*/
+/*@media screen and (max-width: 767px)*/
+
+
 :root {
     --cor1:#000000;
     --cor2:#666666;
