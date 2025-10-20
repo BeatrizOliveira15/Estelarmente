@@ -8,7 +8,7 @@
 .paginas nav {
     position: absolute;
     width: 60%;
-    height: 60px;
+    height: 45px;
     margin-top: 12px;
     background-color: var(--cor10);
     display: flex;
@@ -22,7 +22,7 @@
         color: var(--cor5);
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
-        padding: 25px;
+        padding: 15px;
     }
 }
  
@@ -74,7 +74,109 @@
     }
 }
 
+footer {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: var(--cor10);
+    margin-top: 50%;
 
+    .estrelap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icones {
+        position: absolute;
+        display: flex;
+        margin-left: 200px;
+        gap: 400px;
+        margin-top: 30px;
+    }
+
+    .contato {
+        position: relative;
+        display: flex;
+        margin-top: 40px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--cor3);
+    }
+
+    .facebook {
+        margin-left: 250px;
+    }
+
+    .email {
+        margin-left: 340px;
+    }
+
+    .instagram {
+        margin-left: 250px;
+    }
+
+    .linha {
+        position: absolute;
+        width: 80%;
+        height: 1px;
+        background-color: var(--cor3);
+        margin-top: 30px;
+        margin-left: 8%;
+    }
+
+    .nome {
+        font-family:'Times New Roman', Times, serif;
+        font-size: large;
+        color: var(--cor1);
+        margin-top: 60px;
+        margin-left: 45%;
+    }
+    
+}
+
+/*RESPONSIVIDADE TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+    .paginas nav {
+    width: 45%;
+    display: flex;
+    margin-left: 1.5%;
+
+    a {
+        font-size: 10px;
+        padding: 8px;
+        text-align: center;
+    }
+    }
+
+    footer {
+        height: 30%;
+        margin-top: 80%;
+
+        .icones {
+            margin-left: 40px;
+            gap: 200px;
+            margin-top: 20px;
+        }
+
+        .contato {
+            font-size: small;
+            margin-top: 20px;
+        }
+
+        .linha {
+            margin-top: 20px;
+        }
+
+        .nome {
+            font-size: medium;
+            margin-top: 40px;
+            margin-left: 35%;
+        }
+    }
+}
+
+/*RESPONSIVIDADE CELULAR*/
+/*@media screen and (max-width: 767px)*/
 
 
 :root {
