@@ -23,6 +23,7 @@ body {
     background-color: #454545;
     border-radius: 10px;
     padding: 15px;
+    
 }
 
 .campo {
@@ -121,6 +122,10 @@ select {
 .textou{
     margin-bottom: 20px;
     margin-right: 5%;
+}
+
+footer{
+    margin-top: 60%;
 }
 
 /*RESPONSIVIDADE TABLET*/
