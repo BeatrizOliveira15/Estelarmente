@@ -129,7 +129,7 @@ select {
 
 /*RESPONSIVIDADE CELULAR*/
 @media (max-widht:767px) {
-    .reserva {
+    .principal {
         width: 100%;
         height: 150px;
     }
