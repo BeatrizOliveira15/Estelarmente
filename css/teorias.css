@@ -8,10 +8,11 @@
 
 /*CABEÇALHO*/
 .cabecalho nav{
-    position: static !important;
+    position:static !important;
 }
 
 /*CAPA PRINCIPAL*/
+
 .video {
     video {
         position: relative;
@@ -39,8 +40,9 @@
 }
 
 /*BACKGROUND DO CONTEÚDO*/
-article {
-    position: relative;
+body{
+    background-image: url(../assets/img/backgroundteoria.jpg);
+    background-size: cover;
 }
 
 /*BOXES DE INFORMAÇÕES*/
