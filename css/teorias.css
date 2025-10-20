@@ -7,15 +7,15 @@
 }
 
 /*CABEÇALHO*/
-.cabecalho nav{
-    position:static !important;
+.cabecalho nav {
+    position:absolute !important;
 }
 
 /*CAPA PRINCIPAL*/
 
 .video {
     video {
-        position: relative;
+        position: absolute;
     }
 
     h1 {
@@ -24,16 +24,16 @@
         margin-left: 8%;
         font-size: 6rem;
         color: white;
-        position: absolute;
-        top: 50%;
+        position: absolute !important;
+        top: 40%;
     }
 
     h2 {
         padding: 1%;
         border-radius: 20px 20px 20px 20px;
         color: white;
-        position: absolute;
-        top: 90%;
+        position: absolute !important;
+        top: 80%;
         margin-left: 26%;
         background-color: hsl(263, 68%, 46%, 0.5);
     }
@@ -222,3 +222,99 @@ p {
 }
 
 /*RODAPÉ*/
+
+
+/*RESPONSIVIDADE TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .video h1 {
+        font-size: 3rem;
+        top: 30%;
+
+    }
+
+    .video h2 {
+        font-size: 1rem;
+        margin-left: 20%;
+        top: 45%
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 70%;
+        margin-left: 14.5%;
+
+        h3 {
+            font-size: 20px;
+        }
+
+    }
+
+    .box1 {
+        top: 90%;
+
+        p {
+            font-size: 18px;
+            width: 200%;
+            margin-left: 10%;
+        }
+
+        img {
+            width: 60%;
+            margin-left: 25%;
+        }
+
+        .title1 {
+            width: 150%;
+            margin-left: 25%;
+        }
+    }
+
+    .box2 {
+        top: 205%;
+
+        p {
+            font-size: 18px;
+            margin-left: 10%;
+        }
+
+        .teoriaexo {
+            width: 230%;
+        }
+
+        .teoriaexo img {
+            width: 40%;
+            height: auto;
+            margin-left: 25%;
+        }
+
+
+
+        .teoriakepler img {
+            width: 40%;
+            height: auto;
+            margin-left: 25%;
+        }
+
+        .title1 {
+            width: 150%;
+            margin-left: 25%;
+        }
+    }
+
+    .box3 {
+        top: 275%;
+
+        p {
+            font-size: 18px;
+            width: 97%;
+            margin-left: 3%;
+            margin-bottom: 2%;
+        }
+
+        img {
+            width: 30%;
+            margin-left: 1.5%;
+        }
+    }
+}
