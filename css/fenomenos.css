@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(0, 0, 0);
     }
@@ -71,4 +72,43 @@ body{
      width: 1500px;
         height: auto;
    }
+}
+.main .observatórios{
+    
+    h2{
+    
+        color: black;
+        background-color: rgb(77, 77, 77);
+        border-radius: 20px;
+        width: 98%;
+        height: 80px;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 15px;
+    }
+    h4{
+        color: beige;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.locali{
+
+        display: flex;
+        justify-content: center;
+    
+    a{
+        position: absolute;
+        color: beige;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.484);
+        border-radius: 20px;
+        width: 115px;
+        height: 40px;
+        margin-left: 600px;
+    
+    }
 }
