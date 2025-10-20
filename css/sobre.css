@@ -1,7 +1,18 @@
 body {
     background-color: black;
 }
-
+.cabecalho nav {
+  
+    width: 60%;
+    height: 60px;
+    margin-top: 12px;
+    background-color: var(--cor10);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20%;
+    border-radius: 15px;
+}
 .menu
 {
     background-color: black;
@@ -16,16 +27,139 @@ body {
     }
 
     .texto {
-        font-family: "Playfair Display", serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 20px;
         margin-top: 10px;
         text-align: justify;
         padding: 0 100px;
 
         h1{
+            font-family: 'Poppins', sans-serif;
             font-size: 36px;
             margin-bottom: 20px;
             text-align: center;
         }
     }
 }
+
+
+
+ /* Responsividade */
+ 
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+    .cabecalho{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        text-align: center;
+        width: 50%;
+        font-size: small;
+    }   
+
+    .menu{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+
+    img {
+        display: flex;
+        width: 500px;
+        height: 300px;
+    }
+
+    .texto {
+        font-family: 'Poppins', sans-serif;
+        font-size: small;
+        margin-top: 10px;
+
+        h1{
+            font-family: 'Poppins', sans-serif;
+            font-size: smaller;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p{
+           font-family: 'Poppins', sans-serif;
+           font-size: x-small;
+        }
+    }
+}
+
+    
+ 
+
+
+/* Responsividade */
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .cabecalho nav {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        padding: 8px 12px;
+        border-radius: 12px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .menu img {
+        max-width: 100%;
+        width: 600px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu .texto {
+        padding: 0 40px;
+        font-size: 18px;
+    }
+
+    .menu .texto h1 {
+        font-size: 28px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .cabecalho nav {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 8px;
+        height: auto;
+        padding: 6px 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* imagens responsivas */
+    .menu img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto 12px;
+    }
+
+    .menu .texto {
+        padding: 0 16px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .menu .texto h1 {
+        font-size: 22px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .menu .texto p {
+        font-size: 14px;
+    }
+}
+    }

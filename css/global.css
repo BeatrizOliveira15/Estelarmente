@@ -5,14 +5,25 @@
     padding: 0;
 }
 
-.cabecalho {
+.cabecalho nav {
     position: fixed;
-    width: 50%;
-    height: 50px;
+    width: 60%;
+    height: 60px;
     margin-top: 12px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--cor10);
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    margin-left: 20%;
+    border-radius: 15px;
+
+    a {
+        text-decoration: none;
+        color: var(--cor5);
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        padding: 25px;
+    }
 }
 
 :root {
@@ -25,6 +36,6 @@
     --cor7:#A59D95;
     --cor8:#D5D2CA;
     --cor9:#F5F5F1;
-
+    --cor10:#403F3F;
 }
 
