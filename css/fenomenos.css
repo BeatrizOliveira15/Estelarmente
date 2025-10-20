@@ -7,7 +7,7 @@ body{
         color: beige;
         font-size: larger;
         margin: 20px;
-        text-align: justify;
+      
     }
 
     * img{
@@ -17,66 +17,69 @@ body{
 .main .lua{
         display: flex;
         align-items: center;
+       
         img{
-        width: 600px;
-        height: auto;
+            width: 600px;
+            height: auto;
         }
     }
-
     
-
-
-.main .colisõesgalácticas{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-        img{
-        width: 500px;
-        height: auto;
+    
+    .main .colisõesgalácticas{
+        display: flex;
+        align-items: center;
+        
+        video{
+          width: 1500px;
+             height: auto;
         }
-}
-
-
-
-
-.main .Planetas{
-    display: flex;
-    align-items: center;
-
-    img{
-        width: 800px;
-        height: auto;
-    }
-}
-
-
-.main .galaxia{
-     display: flex;
-    align-items: center;
-    img{
-         width: 1800px;
-        height: auto;
     }
     
-}
-
-.main .Cometa{
-    display: flex;
-    align-items: center;
-}
-
-.main .Nebulosa {
-    display: flex;
-    align-items: center;
-   video{
-     width: 1500px;
-        height: auto;
-   }
-}
-.main .observatórios{
+    .main .Planetas{
+        display: flex;
+        align-items: center;
+        
+        img{
+            width: 800px;
+            height: auto;
+        }
+    }
+    
+    
+    .main .galaxia{
+        display: flex;
+        align-items: center;
+        
+        img{
+            width: 1800px;
+            height: auto;
+        }
+        
+    }
+    
+    .main .Cometa{
+        display: flex;
+        align-items: center;
+        img{
+            width: 800px;
+            height: auto;
+        }
+    }
+    
+    .main .Nebulosa {
+        display: flex;
+        align-items: center;
+        img{
+            width: 800px;
+            height: auto;
+            }
+    }
+    .main .observatórios{
     
     h2{
-    
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: black;
         background-color: rgb(77, 77, 77);
         border-radius: 20px;
@@ -112,3 +115,190 @@ body{
     
     }
 }
+
+ @media screen and (min-width: 768px) and (max-width: 1199px) {
+.main .lua{
+        display: flex;
+        align-items: center;
+       
+        img{
+            width: 400px;
+            height: auto;
+        }
+    }
+    
+    
+    .main .colisõesgalácticas{
+        display: flex;
+        align-items: center;
+        
+        video{
+            width: 400px;
+            height: auto;
+        }
+}
+
+.main .Planetas{
+    display: flex;
+    align-items: center;
+    
+    img{
+        width: 400px;
+        height: auto;
+    }
+}
+
+
+.main .galaxia{
+    display: flex;
+    align-items: center;
+    
+    img{
+        width: 400px;
+        height: auto;
+    }
+    
+}
+
+.main .Cometa{
+    display: flex;
+    align-items: center;
+    img{
+        width: 400px;
+        height: auto;
+    }
+}
+
+.main .Nebulosa {
+    display: flex;
+    align-items: center;
+    img{
+        width: 400px;
+        height: auto;
+        }
+}
+/* não vou mexer no observatórios pq ja ta otimo e reponsivo */
+}
+@media screen and (max-width: 767px) {
+    body{
+    background-color: rgb(0, 0, 0);
+    }
+
+    * p{
+        color: beige;
+        font-size: x-small;
+        margin: 5px;
+      
+    }
+
+    * img{
+        border-radius: 10px;
+    }
+
+    .main .lua{
+        display: flex;
+        align-items: center;
+       
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    
+    
+    .main .colisõesgalácticas{
+        display: flex;
+        align-items: center;
+        
+        video{
+            width: 200px;
+            height: auto;
+        }
+}
+
+.main .Planetas{
+    display: flex;
+    align-items: center;
+    
+    img{
+        width: 250px;
+        height: auto;
+    }
+}
+
+
+.main .galaxia{
+    display: flex;
+    align-items: center;
+    
+    img{
+        width: 250px;
+        height: auto;
+    }
+    
+}
+
+.main .Cometa{
+    display: flex;
+    align-items: center;
+    img{
+        width: 200px;
+        height: auto;
+    }
+}
+
+.main .Nebulosa {
+    display: flex;
+    align-items: center;
+    img{
+        width: 200px;
+        height: auto;
+        }
+}
+.main .observatórios{
+    
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background-color: rgb(77, 77, 77);
+        border-radius: 20px;
+        width: 98%;
+        height: 60px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 4px;
+    }
+    h4{
+        color: beige;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+.locali{
+
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 400px;
+            height: auto;
+        }
+    
+    a{
+        position: absolute;
+        color: beige;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.484);
+        border-radius: 20px;
+        width: 115px;
+        height: 30px;
+        margin-left: 250px;
+    
+    }
+}
+ }
