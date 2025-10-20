@@ -4,6 +4,10 @@ body {
 
 
 
+.cabecalho nav {
+  position: static !important;
+}
+
 /* ECLIPSE LUNAR IMAGE */
 .container{
     display: flex;
@@ -38,15 +42,16 @@ video{
 
 .topicos {
     
-    position: absolute;
-    margin-left: 44%;
-    font-family: 'Poppins', sans-serif;
-    color: var(--cor9);
-    font-size: 12px;
-    text-align: justify;
-    margin-top: 5%;
-    padding: 50px 50px;
-    width: 30%;
+        position: absolute;
+        margin-left: 40%;
+        font-family: 'Poppins', sans-serif;
+        color: var(--cor9);
+        font-size: 9px;
+        text-align: justify;
+        margin-top: 5%;
+        padding: 20px 30px;
+        width: 42%;
+        font-size: 60%;
 
 }
 
@@ -166,12 +171,12 @@ video{
 .topicos3 {
     
     position: absolute;
-    margin-left: 44%;
+    margin-left: 50%;
     font-family: 'Poppins', sans-serif;
     color: var(--cor9);
     font-size: 12px;
     text-align: justify;
-    margin-top: 1%;
+    margin-top: 10%;
     padding: 50px 50px;
     width: 30%;
 
@@ -229,12 +234,12 @@ video{
 .topicos4 {
     
     position: absolute;
-    margin-left: 44%;
+    margin-left: 50%;
     font-family: 'Poppins', sans-serif;
     color: var(--cor9);
     font-size: 12px;
     text-align: justify;
-    margin-top: 5%;
+    margin-top: 10%;
     padding: 50px 50px;
     width: 30%;
 
@@ -259,9 +264,9 @@ video{
 
 /* Responsividade */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media (min-width:768px) and (max-width: 1199px) {
     .container, .container2, .container3, .container4 {
-        display: block;
+        display: flex;
         margin-left: 6%;
         margin-right: 6%;
         margin-top: 60px;
@@ -272,7 +277,7 @@ video{
         height: auto;
     }
 
-    .topicos, .topicos2, .topicos3, .topicos4 {
+    .topicos{
         position: relative;
         margin-left: 0;
         margin-top: 12px;
@@ -296,7 +301,7 @@ video{
 
 /* RESPONSIVIDADE CELULAR */
 
-@media screen and (max-width: 767px) {
+@media (max-width:767px) {
     .container, .container2, .container3, .container4 {
         display: flex;
         margin-left: 4%;
