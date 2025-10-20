@@ -4,7 +4,7 @@
 
 
 
-
+/*CONFIGURAÇÃO GERAL E DO FORMULARIO*/
 main {
     display: flex;
     justify-content: center;
@@ -57,6 +57,7 @@ h1 {
     text-align: center;
     font-size: xx-large;
     color: #ffffff;
+    margin-bottom: 10%;
 }
 
 label {
@@ -75,6 +76,7 @@ select {
     background-color: #c4fac583;
 }
 
+/*configuração dos botões de login social*/
 .google {
 
     a {
@@ -89,6 +91,7 @@ select {
     background-color: white;
     gap:5px;
     width: 210px;
+    height: 50px;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
@@ -108,15 +111,23 @@ select {
     background-color: white;
     gap:5px;
     width: 210px;
+    height: 50px;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 
+.textou{
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+
+/*RESPONSIVIDADE TABLET*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {}
 
+/*RESPONSIVIDADE CELULAR*/
 @media (max-widht:767px) {
     .reserva {
         width: 100%;
