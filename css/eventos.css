@@ -1,72 +1,92 @@
-*{
-    box-sizing: border-box;
+/* Base section styles */
+.section {
+    position: relative;
+    overflow: hidden;
+    min-height: 50vh; /* adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
 }
 
-body{
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+/* Header styles specific to eventos page ONLY - do not modify global.css or index.html */
+.header nav {
+  
+    width: 60%;
+    /* height: 50rem; */
+    margin-top: 12px;
+    background-color: var(--cor10);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20%;
+    border-radius: 15px;
+    z-index: 999;
+    flex-wrap: wrap;
+}
+.header .paginas nav {
+    display: flex;
+    gap: 12px;
+    padding: 12px 16px;
+}
+/* compact layout for small screens */
+@media (max-width: 600px) {
+    .header { padding: 6px 10px; }
+    .header .paginas nav { gap: 6px; padding: 6px; }
+    .header .paginas nav a { font-size: 12px; padding: 6px 8px; }
+    .header .loginb a, .header .singupb a { padding: 6px 8px; font-size: 12px; }
 }
 
-video{
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+/* Background video common rules */
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 1;
+    pointer-events: none; /* so clicks pass through */
 }
 
-.content {
-  bottom: 0;
-  background: var(--cor1);
-  color: var(--cor9);
-  width: 100%;
-  padding: 20px;
+/* Overlay that holds the visible content above the video */
+.content-overlay {
+    position: relative;
+    z-index: 2;
+    padding: 40px;
+    /* max-width: 1100px; */
+    background: rgba(0, 0, 0, 0.35); /* semi-transparent for readability */
+    border-radius: 8px;
+    margin-top: 6rem !important;
 }
 
+.content-overlay h1,
+.content-overlay h2 {
+    margin: 0 0 12px 0;
+    color: #f0f8ff;
+}
 
-.section1,.section2,.section3,.section4{
-   
-    h1{
+.content-overlay p,
+.content-overlay li {
+    color: #e6eef8;
+    line-height: 1.5;
+}
 
-    text-align: center;
-    font-size: 40px;
-    margin-top: 0;
-    padding-top: 20px;
+/* Specific tweaks for section1 if needed */
+.section1 .content-overlay {
+    background: rgba(0, 0, 0, 0.25);
+}
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .content-overlay {
+        padding: 20px;
+        margin: 10px;
     }
-
-    ul{
-
-    text-align: justify;
-    font-size: 20px;
-
-    }
-
-    li{
-
-    text-align: justify;
-    font-size: 20px;
-
-    }
-
-    p{
-    text-align: justify;
-    font-size: 20px;
-    }
+    .section { min-height: 40vh; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
