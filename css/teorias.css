@@ -8,7 +8,7 @@
 
 /*CABEÇALHO*/
 .cabecalho nav {
-    position:absolute !important;
+    position: absolute !important;
 }
 
 /*CAPA PRINCIPAL*/
@@ -40,7 +40,7 @@
 }
 
 /*BACKGROUND DO CONTEÚDO*/
-body{
+body {
     background-image: url(../assets/img/backgroundteoria.jpg);
     background-size: cover;
 }
@@ -222,12 +222,17 @@ p {
 }
 
 /*RODAPÉ*/
-cabecalho{
-    top:500%;
+footer {
+    top: 500%;
 }
 
 /*RESPONSIVIDADE TABLET*/
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    footer{
+        top: 30%;
+    }
+
     .video h1 {
         font-size: 3rem;
         top: 30%;
@@ -321,15 +326,15 @@ cabecalho{
     }
 }
 
-footer{
-    top:490%;
+footer {
+    top: 490%;
     position: absolute !important;
     height: 35% !important;
 }
 
- footer .nome{
-        margin-left: 33% !important; 
-    }
+footer .nome {
+    margin-left: 33% !important;
+}
 
 /*RESPONSIVIDADE CELULAR GRANDE*/
 @media screen and (max-width: 767px) {
@@ -450,128 +455,125 @@ footer{
             }
         }
     }
-}
 
-/*RESPONSIVIDADE CELULAR PEQUENO*/
- @media screen and (max-width: 500px) {
+    /*RESPONSIVIDADE CELULAR PEQUENO*/
+    @media screen and (max-width: 500px) {
+        .video h1 {
+            font-size: 1.6rem;
+            width: 50%;
+            top: 13%;
 
-    .video h1 {
-        font-size: 1.6rem;
-        width: 50%;
-        top: 13%;
-
-    }
-
-    .video h2 {
-        font-size: 0.5rem;
-        margin-left: 13%;
-        top: 23%
-    }
-
-    .box1,
-    .box2,
-    .box3 {
-        width: 70%;
-        margin-left: 14.5%;
-    }
-
-    .box1 {
-        top: 45%;
-
-
-        p {
-            font-size: 9px;
-            width: 200%;
         }
 
-        img {
+        .video h2 {
+            font-size: 0.5rem;
+            margin-left: 13%;
+            top: 23%
+        }
+
+        .box1,
+        .box2,
+        .box3 {
             width: 70%;
-            margin-left: 25%;
+            margin-left: 14.5%;
         }
 
-        .title1 {
-            width: 150%;
-            margin-left: 25%;
+        .box1 {
+            top: 45%;
 
-            h3 {
-                font-size: 15px;
+
+            p {
+                font-size: 9px;
+                width: 200%;
             }
-        }
-    }
 
-    .box2 {
-        top: 105%;
+            img {
+                width: 70%;
+                margin-left: 25%;
+            }
 
-        p {
-            font-size: 9px;
-            width: 95%;
-            margin-left: 10px;
-        }
+            .title1 {
+                width: 150%;
+                margin-left: 25%;
 
-        .title2 {
-            width: 70%;
-            margin-left: 15%;
-
-            h3 {
-                font-size: 15px;
+                h3 {
+                    font-size: 15px;
+                }
             }
         }
 
-        .title3 {
-            width: 70%;
-            margin-left: 15%;
+        .box2 {
+            top: 105%;
 
-            h3 {
-                font-size: 15px;
+            p {
+                font-size: 9px;
+                width: 95%;
+                margin-left: 10px;
+            }
+
+            .title2 {
+                width: 70%;
+                margin-left: 15%;
+
+                h3 {
+                    font-size: 15px;
+                }
+            }
+
+            .title3 {
+                width: 70%;
+                margin-left: 15%;
+
+                h3 {
+                    font-size: 15px;
+                }
+            }
+
+            .teoriaexo {
+                width: 230%;
+            }
+
+            .teoriaexo img {
+                width: 40%;
+                height: auto;
+                margin-left: 20%;
+            }
+
+            .teoriakepler img {
+                width: 40%;
+                height: auto;
+                margin-left: 27%;
+            }
+
+            .more {
+                font-size: 13px;
+                padding-left: 40%;
             }
         }
 
-        .teoriaexo {
-            width: 230%;
-        }
+        .box3 {
+            top: 145%;
 
-        .teoriaexo img {
-            width: 40%;
-            height: auto;
-            margin-left: 20%;
-        }
+            p {
+                font-size: 9px;
+                width: 97%;
+                margin-left: 3%;
+                margin-bottom: 2%;
+            }
 
-        .teoriakepler img {
-            width: 40%;
-            height: auto;
-            margin-left: 27%;
-        }
+            img {
+                width: 20%;
+                margin-left: 10%;
+            }
 
-        .more {
-            font-size: 13px;
-            padding-left: 40%;
-        }
-    }
+            .title4 {
+                width: 70%;
+                margin-left: 15%;
 
-    .box3 {
-        top: 145%;
-
-        p {
-            font-size: 9px;
-            width: 97%;
-            margin-left: 3%;
-            margin-bottom: 2%;
-        }
-
-        img {
-            width: 20%;
-            margin-left: 10%;
-        }
-
-        .title4 {
-            width: 70%;
-            margin-left: 15%;
-
-            h3 {
-                font-size: 15px;
+                h3 {
+                    font-size: 15px;
+                }
             }
         }
     }
-}
-
-
+    }
