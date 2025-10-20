@@ -1,18 +1,7 @@
 body {
     background-color: black;
 }
-.header nav {
-  
-    width: 60%;
-    height: 60px;
-    margin-top: 12px;
-    background-color: var(--cor10);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 20%;
-    border-radius: 15px;
-}
+
 .menu
 {
     background-color: black;
