@@ -179,3 +179,44 @@ article {
     padding-left: 46%;
 }
 
+/*ULTIMO BOX*/
+.box3 {
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    position: absolute;
+    color: white;
+    background-color: hsl(263, 68%, 46%, 0.5);
+    width: 55%;
+    margin-left: 23%;
+    top: 398%;
+
+    img {
+        padding: 3px;
+    }
+}
+
+.title4 {
+    background-color: hsl(275, 90%, 16%, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 1rem;
+    padding: 2%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+
+    h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+p {
+    font-size: 22px;
+    width: 120%;
+    margin-top: 5%;
+    margin-left: 19%;
+    margin-bottom: 10%;
+    width: 70%;
+}
+
+/*RODAPÉ*/
