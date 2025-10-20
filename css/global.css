@@ -8,7 +8,7 @@
 .paginas nav {
     position: absolute;
     width: 60%;
-    height: 60px;
+    height: 45px;
     margin-top: 12px;
     background-color: var(--cor10);
     display: flex;
@@ -22,7 +22,7 @@
         color: var(--cor5);
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
-        padding: 25px;
+        padding: 15px;
     }
 }
 
