@@ -30,7 +30,7 @@
     position: absolute;
     width: 8%;
     height: 45px;
-    margin-top: 13px;
+    margin-top: 20px;
     background-color: var(--cor4);
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@
     position: absolute;
     width: 8%;
     height: 45px;
-    margin-top: 13px;
+    margin-top: 20px;
     background-color: var(--cor4);
     display: flex;
     align-items: center;
@@ -171,19 +171,19 @@ footer {
 }
 
 footer {
-    height: 30%;
+    height: 50%;
     background-color: var(--cor10);
-    margin-top: 66%;
+    margin-top: 50%;
 
 
     .icones {
         margin-left: 80px;
         gap: 180px;
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     .contato {
-        margin-top: 30px;
+        margin-top: 70px;
         font-family: 'Poppins', sans-serif;
         color: var(--cor3);
         font-size: small;
@@ -201,8 +201,12 @@ footer {
         margin-left: 60px;
     }
 
+    .linha {
+        margin-top: 100px;
+    }
     .nome {
         margin-left: 40%;
+        margin-top: 150px;
     }
     
 }
@@ -210,7 +214,82 @@ footer {
 }
 
 /*RESPONSIVIDADE CELULAR*/
-/*@media screen and (max-width: 767px)*/
+@media screen and (max-width: 767px) {
+    .paginas nav {
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+
+    a {
+        font-size: 12px;
+        padding: 8px;
+        text-align: center;
+    }
+    }
+
+    .loginb nav {
+    margin-left: 72%;
+    margin-top: 18px;
+    
+    a {
+       font-size: 10px;
+       padding: 15px; 
+    }
+}
+
+.singupb nav {
+    margin-top: 18px;
+    margin-left: 81%;
+    
+    a {
+       font-size: 10px;
+       padding: 15px;
+       text-align: center;
+    }
+
+}
+
+footer {
+    height: 50%;
+    background-color: var(--cor10);
+    margin-top: 50%;
+
+
+    .icones {
+        margin-left: 80px;
+        gap: 180px;
+        margin-top: 60px;
+    }
+
+    .contato {
+        margin-top: 70px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--cor3);
+        font-size: small;
+    }
+
+    .facebook {
+        margin-left: 120px;
+    }
+
+    .email {
+        margin-left: 145px;
+    }
+
+    .instagram {
+        margin-left: 60px;
+    }
+
+    .linha {
+        margin-top: 100px;
+    }
+    .nome {
+        margin-left: 40%;
+        margin-top: 150px;
+    }
+    
+}
+}
 
 
 :root {
