@@ -8,7 +8,7 @@
 .paginas nav {
     position: absolute;
     width: 60%;
-    height: 45px;
+    height: 60px;
     margin-top: 12px;
     background-color: var(--cor10);
     display: flex;
@@ -22,7 +22,7 @@
         color: var(--cor5);
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
-        padding: 15px;
+        padding: 23px;
     }
 }
  
@@ -137,42 +137,76 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     
     .paginas nav {
-    width: 45%;
+    width: 80%;
     display: flex;
-    margin-left: 1.5%;
+    margin-left: 10%;
 
     a {
-        font-size: 10px;
+        font-size: 12px;
         padding: 8px;
         text-align: center;
     }
     }
 
-    footer {
-        height: 30%;
-        margin-top: 80%;
-
-        .icones {
-            margin-left: 40px;
-            gap: 200px;
-            margin-top: 20px;
-        }
-
-        .contato {
-            font-size: small;
-            margin-top: 20px;
-        }
-
-        .linha {
-            margin-top: 20px;
-        }
-
-        .nome {
-            font-size: medium;
-            margin-top: 40px;
-            margin-left: 35%;
-        }
+    .loginb nav {
+    margin-left: 72%;
+    margin-top: 18px;
+    
+    a {
+       font-size: 10px;
+       padding: 15px; 
     }
+}
+
+.singupb nav {
+    margin-top: 18px;
+    margin-left: 81%;
+    
+    a {
+       font-size: 10px;
+       padding: 15px;
+       text-align: center;
+    }
+
+}
+
+footer {
+    height: 30%;
+    background-color: var(--cor10);
+    margin-top: 66%;
+
+
+    .icones {
+        margin-left: 80px;
+        gap: 180px;
+        margin-top: 20px;
+    }
+
+    .contato {
+        margin-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        color: var(--cor3);
+        font-size: small;
+    }
+
+    .facebook {
+        margin-left: 120px;
+    }
+
+    .email {
+        margin-left: 145px;
+    }
+
+    .instagram {
+        margin-left: 60px;
+    }
+
+    .nome {
+        margin-left: 40%;
+    }
+    
+}
+
 }
 
 /*RESPONSIVIDADE CELULAR*/
